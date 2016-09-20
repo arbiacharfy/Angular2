@@ -15,6 +15,7 @@ export class ContactComponent implements CanDeactivate{
     routerCanDeactivate(next, previous){
 
        return confirm("are you sure?") 
+       
 
     }
 }
